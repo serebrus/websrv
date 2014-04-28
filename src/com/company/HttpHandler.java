@@ -61,7 +61,7 @@ public class HttpHandler {
 
     private String loadFile() {
         try {
-            FileReader f = new FileReader("index.html");
+            FileReader f = new FileReader("c:\\Users\\java\\JWebServer\\src\\com\\company\\index.html");
             BufferedReader buf = new BufferedReader(f);
             StringBuilder sb = new StringBuilder();
             String line = buf.readLine();
